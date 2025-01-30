@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .img::before{
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            background: white;
+            opacity: .5;
+        }
+        .img{
+            color: black;
+            background-image: url("../CSSpage-img/download.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Times New Roman', Times, serif;
+            position: relative;
+            width: 100%;
+            height: 100px;
+            isolation: isolate;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <div class="img">
+            <center>
+                <h1>CSS</h1>
+                <h3>Castscading,Style,Sheet</h3>
+            </center>
+            </div>
+    </div> 
+</body>
+</html>
